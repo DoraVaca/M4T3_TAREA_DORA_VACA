@@ -45,3 +45,8 @@ Detectar objetos/clases en imágenes de contexto AECO: equipo de protección per
 - Parámetros: epochs=30, batch=16, imgsz=640
 - Métricas: mAP@50=41.7%, Precision=65.2%, Recall=39.4%
 - Versión ultralytics: 8.0.196
+
+## 🧪 Prueba de Reproducibilidad
+- Última ejecución exitosa: 07/03/2026, 23:30 (hora local)
+- Entorno: Google Colab con GPU T4 (NVIDIA)
+- Tiempo de ejecución: ~35–40 minutos para 30 épocas
