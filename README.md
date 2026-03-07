@@ -54,3 +54,10 @@ Detectar objetos/clases en imágenes de contexto AECO: equipo de protección per
 - Entorno: Google Colab con GPU T4 (NVIDIA)
 - Tiempo de ejecución: ~35–40 minutos para 30 épocas
 
+## 🔗 Pesos del modelo
+- [Descargar best.pt (GitHub Release)](https://github.com/usuario/repositorio/releases)  
+  *(o enlace externo si lo subes a Drive/OneDrive)*
+
+## 📑 Paquete PDF
+- Diapositivas (docs/slides.pdf)  
+- Mini-informe (docs/mini_report.pdf)
