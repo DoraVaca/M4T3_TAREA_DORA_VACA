@@ -3,7 +3,7 @@ M4T3_TAREA_DORA_VACA
 # Prototipo AECO CV — YOLOv8
 
 ## 📌 Problema y criterios de éxito
-Detectar [objetos/clases] en imágenes de [contexto AECO: equipo de protección personal].  
+Detectar objetos/clases en imágenes de contexto AECO: equipo de protección personal.  
 Éxito = obtener mAP ≥ 0.5 en validación y resultados consistentes en imágenes nuevas.
 
 ## 🗂️ Lista de clases y reglas de etiquetado
