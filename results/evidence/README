@@ -1,8 +1,7 @@
-# Evidencias de entrenamiento e inferencia
+Evidencias de entrenamiento e inferencia
 
 Esta carpeta contiene las capturas y ejemplos visuales que respaldan el desempeño del modelo YOLOv8.
 
-## Contenido
 - **Anotaciones (3–5 ejemplos)**  
   Capturas de Roboflow mostrando cómo se etiquetaron las clases en el dataset.
 
@@ -12,7 +11,7 @@ Esta carpeta contiene las capturas y ejemplos visuales que respaldan el desempe�
 - **Predicciones en imágenes nuevas (5 ejemplos)**  
   Evidencias de inferencia sobre imágenes distintas al dataset, para mostrar capacidad de generalización.
 
-## Uso
+
 Estas evidencias permiten:
 - Verificar la calidad de las anotaciones originales.  
 - Evaluar el desempeño del modelo en datos conocidos (validación).  
