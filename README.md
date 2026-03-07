@@ -7,17 +7,17 @@ Detectar [objetos/clases] en imágenes de [contexto AECO: equipo de protección 
 Éxito = obtener mAP ≥ 0.5 en validación y resultados consistentes en imágenes nuevas.
 
 ## 🗂️ Lista de clases y reglas de etiquetado
-- Clase 1: [gloves]
-- Clase 2: [harness]
-- Clase 3: [helmet]
-- Clase 4: [no_helmet]
-- Clase 5: [no_safety_shoe]
-- Clase 6: [no_safety_vest]
-- Clase 7: [person]
-- Clase 8: [safety_shoe]
-- Clase 9: [safety_vest]
-- Clase 10: [welding_mask]
-👉 Reglas: [ejemplo: se etiqueta solo el objeto completo, no partes sueltas].
+- Clase 1: gloves
+- Clase 2: harness
+- Clase 3: helmet
+- Clase 4: no_helmet
+- Clase 5: no_safety_shoe
+- Clase 6: no_safety_vest
+- Clase 7: person
+- Clase 8: safety_shoe
+- Clase 9: safety_vest
+- Clase 10: welding_mask
+👉 Reglas: se etiqueta solo el objeto completo, no partes sueltas.
 
 ## 📊 Dataset
 - Fuente: [https://app.roboflow.com/dora-nkhz4/m4t3_tarea_dora_vaca/3]  
