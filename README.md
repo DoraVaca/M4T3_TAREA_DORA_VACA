@@ -40,7 +40,8 @@ Detectar [objetos/clases] en imágenes de [contexto AECO: equipo de protección 
   - El modelo generaliza en imágenes nuevas.
 
 ## ✅ Checklist de reproducibilidad
-- Dataset: [versión/enlace]  
-- Modelo: `yolov8n` (o `yolov8s`)  
-- Parámetros: epochs=30, batch=16, imgsz=640  
-- Versión ultralytics: [ejemplo: 8.0.196]  
+- Dataset: Roboflow Project `M4T3_TAREA_DORA_VACA`, versión v3 (140 imágenes, split 72/16/12)
+- Modelo: yolo8n
+- Parámetros: epochs=30, batch=16, imgsz=640
+- Métricas: mAP@50=41.7%, Precision=65.2%, Recall=39.4%
+- Versión ultralytics: 8.0.196
