@@ -1,7 +1,10 @@
 # M4T3_TAREA_DORA_VACA
 M4T3_TAREA_DORA_VACA
 # Prototipo AECO CV — YOLOv8
-
+- Modelo prototipo para entrega de una tarea, el cual detecta ÚNICAMENTE algunos tipos de equipos de protección personal en obras.
+- NO apto para veredictos o certificados oficiales de cumplimiento de uso de equipo de protección.
+- IMPORTANTE: Este modelo es una herramienta asistiva solo para screening preliminar.  Produce falsos negativos.  NO debe utilizarse como único verificador en decisiones de seguridad vital.
+  
 ## 📌 Problema y criterios de éxito
 Detectar objetos/clases en imágenes de contexto AECO: equipo de protección personal.  
 Éxito = obtener mAP ≥ 0.5 en validación y resultados consistentes en imágenes nuevas.
@@ -50,3 +53,4 @@ Detectar objetos/clases en imágenes de contexto AECO: equipo de protección per
 - Última ejecución exitosa: 07/03/2026, 23:30 (hora local)
 - Entorno: Google Colab con GPU T4 (NVIDIA)
 - Tiempo de ejecución: ~35–40 minutos para 30 épocas
+
