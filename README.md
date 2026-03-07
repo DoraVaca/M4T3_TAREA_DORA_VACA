@@ -59,5 +59,5 @@ Detectar objetos/clases en imágenes de contexto AECO: equipo de protección per
   *(o enlace externo si lo subes a Drive/OneDrive)*
 
 ## 📑 Paquete PDF
-- Diapositivas (docs/slides.pdf)  
-- Mini-informe (docs/mini_report.pdf)
+- [Diapositivas (máx. 6–8)](docs/slides.pdf)  
+- [Mini-informe (máx. 2 páginas)](docs/mini_report.pdf)
