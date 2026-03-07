@@ -1,1 +1,4 @@
+- 3–5 ejemplos de anotación (capturas de Roboflow mostrando cómo etiquetaste).
+- 10 predicciones de validación (capturas de Colab con bounding boxes sobre imágenes del set de validación).
+- 5 predicciones en imágenes nuevas (capturas de inferencia sobre fotos distintas al dataset).
 
