@@ -78,9 +78,9 @@ Ejemplo de flujo en Colab:
 - Versión ultralytics: 8.0.196
 
 ## 🧪 Prueba de Reproducibilidad
-- Última ejecución exitosa: 07/03/2026, 23:30 (hora local)
+- Última ejecución exitosa: 08/03/2026, 4:20 (hora local)
 - Entorno: Google Colab con GPU T4 (NVIDIA)
-- Tiempo de ejecución: ~35–40 minutos para 30 épocas
+- Tiempo de ejecución: ~10–15 minutos para 30 épocas
 
 ## 🔗 Pesos del modelo
 - [Descargar best.pt (GitHub Release)](https://github.com/usuario/repositorio/releases)  
