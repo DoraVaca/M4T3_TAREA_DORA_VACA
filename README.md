@@ -4,7 +4,7 @@ M4T3_TAREA_DORA_VACA
 - Modelo prototipo para entrega de una tarea, el cual detecta ÚNICAMENTE algunos tipos de equipos de protección personal en obras.
 - NO apto para veredictos o certificados oficiales de cumplimiento de uso de equipo de protección.
 - IMPORTANTE: Este modelo es una herramienta asistiva solo para screening preliminar.  Produce falsos negativos.  NO debe utilizarse como único verificador en decisiones de seguridad vital.
-  
+
 ## 📌 Problema y criterios de éxito
 Detectar objetos/clases en imágenes de contexto AECO: equipo de protección personal.  
 Éxito = obtener mAP ≥ 0.5 en validación y resultados consistentes en imágenes nuevas.
@@ -27,13 +27,28 @@ Detectar objetos/clases en imágenes de contexto AECO: equipo de protección per
 - Split: 72% entrenamiento / 16% validación  / 12% validación
 
 ## ⚙️ Cómo reproducir en Colab
-1. Abre el notebook con el badge:  
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](URL_DEL_NOTEBOOK)
-2. Instala ultralytics: `!pip install ultralytics`
-3. Ejecuta el entrenamiento: `model.train(...)`
-4. Revisa métricas y resultados en `/results/`.
+1. Haz clic en el siguiente botón para abrir el notebook en Google Colab:
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](URL_DEL_NOTEBOOK)  
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/usuario/repositorio/blob/main/notebooks/train.ipynb)
 
-## 📈 Resultados
+2. Una vez abierto en Colab, ejecuta las celdas en orden.  
+   - El notebook descargará automáticamente el dataset desde Roboflow usando la API.  
+   - Se instalarán las dependencias necesarias con `pip`.  
+   - El modelo se entrenará y generará métricas y resultados reproducibles.
+   - Revisa métricas y resultados en `/results/`.
+
+## 🔑 Notas importantes
+- Necesitas tu **API Key de Roboflow** para ejecutar el notebook.  
+- No es necesario instalar nada en tu computadora: todo corre en la nube con Google Colab.  
+- Si compartes pesos entrenados, colócalos en la carpeta `models/` y documenta cómo cargarlos en el notebook.
+  
+## ✅ Resultados esperados
+- Descarga automática del dataset desde Roboflow.  
+- Entrenamiento del modelo (ejemplo: YOLOv8).  
+- Métricas de desempeño (precisión, recall, mAP).  
+- Ejemplos de predicciones sobre imágenes de prueba.
+
+## 📈 Resultados obtenidos
 - Precision: 65.2%  
 - Recall: 39.4%  
 - mAP: 41.7%  
@@ -57,9 +72,6 @@ Detectar objetos/clases en imágenes de contexto AECO: equipo de protección per
 ## 🔗 Pesos del modelo
 - [Descargar best.pt (GitHub Release)](https://github.com/usuario/repositorio/releases)  
   *(o enlace externo si lo subes a Drive/OneDrive)*
-  
-## 📑 Open in Colab
-- [Open in Colab]([docs/slides.pdf](https://github.com/DoraVaca/M4T3_TAREA_DORA_VACA/blob/main/notebooks/train.ipynb)
 
 ## 📑 Paquete PDF
 - [Diapositivas](docs/slides.pdf)  
