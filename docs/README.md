@@ -1,4 +1,4 @@
-# 📂 Portafolio de Seguridad en AECO
+# 📂 Portafolio de Prototipo AECO CV — YOLOv8
 
 Este repositorio reúne la documentación y análisis relacionados con la detección automática de **equipos de protección personal (EPP)** en el sector **AECO (Arquitectura, Ingeniería, Construcción y Operaciones)**.  
 El objetivo es mostrar de manera transparente el planteamiento del problema, la definición de clases, los errores encontrados y las pautas de gobernanza para asegurar reproducibilidad y cumplimiento normativo.
