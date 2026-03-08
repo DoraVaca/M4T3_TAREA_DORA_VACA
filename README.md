@@ -66,9 +66,16 @@ Ejemplo de flujo en Colab:
 - Recall: 39.4%  
 - mAP: 41.7%  
 - Conclusiones:  
-  - Clase X se detecta bien.  
-  - Clase Y presenta falsos negativos.  
-  - El modelo generaliza en imágenes nuevas.
+  - El modelo detecta bien las clases más comunes (persona, arnés, chaleco).
+  - Tiene problemas con clases poco representadas (guantes, sin chaleco, careta de soldadura).
+  - A veces confunde objetos con el fondo, perdiendo detecciones reales.
+  - La Clase 10 (careta de soldadura) es la más difícil: se mezcla con casco, persona, zapatos y chaleco.
+- Recomendaciones:
+  - Agregar más datos de las clases débiles (guantes, sin chaleco, sin zapato, careta de soldadura).
+  - Revisar etiquetas de casco y careta de soldadura, que se solapan.
+  - Balancear el dataset para reducir el sesgo hacia clases dominantes (persona, arnés).
+  - Usar data augmentation (recortes, rotaciones, cambios de luz) en clases minoritarias.
+  - Diferenciar mejor clases similares (ej. casco vs careta de soldadura).
 
 ## ✅ Checklist de reproducibilidad
 - Dataset: Roboflow Project `M4T3_TAREA_DORA_VACA`, versión v3 (140 imágenes, split 72/16/12)
