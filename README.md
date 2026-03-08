@@ -29,7 +29,7 @@ Detectar objetos/clases en imágenes de contexto AECO: equipo de protección per
 ## ⚙️ Cómo reproducir en Colab
 1. Haz clic en el siguiente botón para abrir el notebook en Google Colab:
    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](URL_DEL_NOTEBOOK)  
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/usuario/repositorio/blob/main/notebooks/train.ipynb)
+   (https://colab.research.google.com/github/usuario/repositorio/blob/main/notebooks/train.ipynb)
 
 2. Una vez abierto en Colab, ejecuta las celdas en orden.  
    - El notebook descargará automáticamente el dataset desde Roboflow usando la API.  
