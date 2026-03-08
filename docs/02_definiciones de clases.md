@@ -1,0 +1,11 @@
+# **Lista de clases**
+- **Clase 1: gloves** → Guantes de seguridad para proteger manos de cortes, abrasiones o quemaduras.  
+- **Clase 2: harness** → Arnés de seguridad utilizado en trabajos en altura para prevenir caídas.  
+- **Clase 3: helmet** → Casco de seguridad obligatorio para proteger la cabeza contra impactos.  
+- **Clase 4: no_helmet** → Persona sin casco; incumplimiento crítico de normas de seguridad.  
+- **Clase 5: no_safety_shoe** → Persona sin calzado de seguridad; riesgo de lesiones en pies.  
+- **Clase 6: no_safety_vest** → Persona sin chaleco reflectante; menor visibilidad en obra.  
+- **Clase 7: person** → Detección genérica de trabajador en obra, independientemente del EPP.  
+- **Clase 8: safety_shoe** → Calzado de seguridad con puntera reforzada y suela antideslizante.  
+- **Clase 9: safety_vest** → Chaleco reflectante para aumentar visibilidad en entornos de construcción.  
+- **Clase 10: welding_mask** → Máscara de soldadura para proteger ojos y rostro de chispas y radiación.  
