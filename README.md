@@ -57,6 +57,9 @@ Detectar objetos/clases en imágenes de contexto AECO: equipo de protección per
 ## 🔗 Pesos del modelo
 - [Descargar best.pt (GitHub Release)](https://github.com/usuario/repositorio/releases)  
   *(o enlace externo si lo subes a Drive/OneDrive)*
+  
+## 📑 Open in Colab
+- [Open in Colab]([docs/slides.pdf](https://github.com/DoraVaca/M4T3_TAREA_DORA_VACA/blob/main/notebooks/train.ipynb)
 
 ## 📑 Paquete PDF
 - [Diapositivas](docs/slides.pdf)  
