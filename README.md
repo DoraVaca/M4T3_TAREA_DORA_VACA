@@ -36,6 +36,20 @@ Detectar objetos/clases en imágenes de contexto AECO: equipo de protección per
    - El modelo se entrenará y generará métricas y resultados reproducibles.
    - Revisa métricas y resultados en `/results/`.
 
+## 📸 Evaluar imágenes propias
+El notebook incluye una sección llamada **“Evaluar imágenes propias”** con un menú interactivo. El usuario puede elegir entre tres opciones:
+1. **Subir archivo desde su computadora**  
+   - Se abre un cuadro de diálogo para seleccionar imágenes locales.  
+2. **Usar imágenes desde Google Drive**  
+   - Se monta el Drive y se indica la ruta completa del archivo.  
+3. **Usar una URL pública**  
+   - Se introduce la dirección web de la imagen.  
+
+Ejemplo de flujo en Colab:
+- Ejecuta la celda del menú.  
+- Escribe `1`, `2` o `3` según la opción deseada.  
+- La imagen se mostrará en pantalla y será evaluada automáticamente por el modelo.  
+
 ## 🔑 Notas importantes
 - Necesitas tu **API Key de Roboflow** para ejecutar el notebook.  
 - No es necesario instalar nada en tu computadora: todo corre en la nube con Google Colab.  
