@@ -77,7 +77,9 @@ Dentro del notebook 2 (inferencia) se incluye una sección llamada **“Evaluar 
 ## 📈 Resultados obtenidos
 - Precision: 65.2%  
 - Recall: 39.4%  
-- mAP: 41.7%  
+- mAP: 41.7%
+- [Matrix de Confusion](M4T3_TAREA_DORA_VACA/results/evidence/01_anotaciones at main · DoraVaca/M4T3_TAREA_DORA_VACA)
+- [Curvas](M4T3_TAREA_DORA_VACA/results/evidence/01_anotaciones at main · DoraVaca/M4T3_TAREA_DORA_VACA)      
 - Conclusiones:  
   - El modelo detecta bien las clases más comunes (persona, arnés, chaleco).
   - Tiene problemas con clases poco representadas (guantes, sin chaleco, careta de soldadura).
@@ -101,17 +103,23 @@ Dentro del notebook 2 (inferencia) se incluye una sección llamada **“Evaluar 
 - Última ejecución exitosa: 08/03/2026, 4:20 (hora local)
 - Entorno: Google Colab con GPU T4 (NVIDIA)
 - Tiempo de ejecución: ~10–15 minutos para 30 épocas
+- [Evidencia reproductividad otros usuarios](M4T3_TAREA_DORA_VACA/results/evidence/04_prueba_reproductividad at main · DoraVaca/M4T3_TAREA_DORA_VACA)
 
 ## 🔗 Pesos del modelo
 - [Descargar best.pt (GitHub Release)](https://github.com/usuario/repositorio/releases)  
   *(o enlace externo si lo subes a Drive/OneDrive)*
 
 ## Documentos del proyecto
-- [Planteamiento del problema](docs/01_planteamiento_del_problema.md)
-- [Definicion de clases](docs/02_definiciones_de_clases.md)
-- [Analisis de errores](docs/03_analisis_de_errores.md)
-- [Governance checklist](docs/04_governance_checklist.md)
+- [Planteamiento del problema](M4T3_TAREA_DORA_VACA/docs/01_planteamiento_del_problema AECO.md at main · DoraVaca/M4T3_TAREA_DORA_VACA)
+- [Definicion de clases](M4T3_TAREA_DORA_VACA/docs/02_definiciones de clases.md at main · DoraVaca/M4T3_TAREA_DORA_VACA)
+- [Analisis de errores](M4T3_TAREA_DORA_VACA/docs/03_análisis de errores.md at main · DoraVaca/M4T3_TAREA_DORA_VACA)
+- [Governance checklist](M4T3_TAREA_DORA_VACA/docs/04_governance_checklist.md at main · DoraVaca/M4T3_TAREA_DORA_VACA)
 
 ## 📑 Paquete PDF
 - [Diapositivas](docs/slides.pdf)  
 - [Mini-informe](docs/mini_report.pdf)
+
+## 📑 Evidencias
+- [Resultados Imagenes Anotaciones](M4T3_TAREA_DORA_VACA/results/evidence/01_anotaciones at main · DoraVaca/M4T3_TAREA_DORA_VACA)  
+- [Resultados Imagenes Validacion](M4T3_TAREA_DORA_VACA/results/evidence/02_predicciones_validación at main · DoraVaca/M4T3_TAREA_DORA_VACA)
+- [Resultados Imagenes Nuevas](M4T3_TAREA_DORA_VACA/results/evidence/03_predicciones_imágenes_nuevas at main · DoraVaca/M4T3_TAREA_DORA_VACA) 
