@@ -1,6 +1,6 @@
 # M4T3_TAREA_DORA_VACA
 M4T3_TAREA_DORA_VACA
-# Prototipo AECO CV — YOLOv8
+# Prototipo AECO CV — YOLOv8/26
 - Modelo prototipo para entrega de una tarea, el cual detecta ÚNICAMENTE algunos tipos de equipos de protección personal en obras.
 - NO apto para veredictos o certificados oficiales de cumplimiento de uso de equipo de protección.
 - IMPORTANTE: Este modelo es una herramienta asistiva solo para screening preliminar.  Produce falsos negativos.  NO debe utilizarse como único verificador en decisiones de seguridad vital.
