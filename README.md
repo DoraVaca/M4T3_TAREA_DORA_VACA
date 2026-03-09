@@ -78,8 +78,8 @@ Dentro del notebook 2 (inferencia) se incluye una sección llamada **“Evaluar 
 - Precision: 65.2%  
 - Recall: 39.4%  
 - mAP: 41.7%
-- [Matrix de Confusion](M4T3_TAREA_DORA_VACA/results/graficos_entrenamiento/Confusion_matrix.png at main · DoraVaca/M4T3_TAREA_DORA_VACA)
-- [Curvas](M4T3_TAREA_DORA_VACA/results/graficos_entrenamiento/Curvas.png at main)     
+- [Matriz de Confusion](https://github.com/DoraVaca/M4T3_TAREA_DORA_VACA/blob/main/results/graficos_entrenamiento/Confusion_matrix.png)
+- [Curvas](https://github.com/DoraVaca/M4T3_TAREA_DORA_VACA/blob/main/results/graficos_entrenamiento/Curvas.png)   
 - Conclusiones:  
   - El modelo detecta bien las clases más comunes (persona, arnés, chaleco).
   - Tiene problemas con clases poco representadas (guantes, sin chaleco, careta de soldadura).
@@ -120,6 +120,6 @@ Dentro del notebook 2 (inferencia) se incluye una sección llamada **“Evaluar 
 - [Mini-informe](docs/mini_report.pdf)
 
 ## 📑 Evidencias
-- [Resultados Imagenes Anotaciones](M4T3_TAREA_DORA_VACA/results/evidence/01_anotaciones at main · DoraVaca/M4T3_TAREA_DORA_VACA)  
-- [Resultados Imagenes Validacion](M4T3_TAREA_DORA_VACA/results/evidence/02_predicciones_validación at main · DoraVaca/M4T3_TAREA_DORA_VACA)
-- [Resultados Imagenes Nuevas](M4T3_TAREA_DORA_VACA/results/evidence/03_predicciones_imágenes_nuevas at main · DoraVaca/M4T3_TAREA_DORA_VACA) 
+- [Resultados Imagenes Anotaciones](https://github.com/DoraVaca/M4T3_TAREA_DORA_VACA/tree/main/results/evidence/01_anotaciones)
+- [Resultados Imagenes Validacion](https://github.com/DoraVaca/M4T3_TAREA_DORA_VACA/tree/main/results/evidence/02_predicciones_validaci%C3%B3n)
+- [Resultados Imagenes Nuevas](https://github.com/DoraVaca/M4T3_TAREA_DORA_VACA/tree/main/results/evidence/03_predicciones_im%C3%A1genes_nuevas)
