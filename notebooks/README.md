@@ -27,18 +27,13 @@ Este proyecto está dividido en dos notebooks que deben ejecutarse en orden, NO 
 > **Nota:** El Notebook 2 no requiere haber corrido el Notebook ENTRENAMIENTO localmente. El modelo ya está desplegado en Roboflow y se carga automáticamente con tu API key.
 
 ## 📸 Evaluar imágenes propias
-Dentro del notebook 2 (inferencia) se incluye una sección llamada **“Evaluar imágenes propias”** con un menú interactivo. El usuario puede elegir entre tres opciones:
+Dentro del notebook 2 (inferencia) se incluye una sección llamada **“Evaluar imágenes propias”**. El usuario puede elegir entre tres opciones:
 1. **Subir archivo desde su computadora**  
    - Se abre un cuadro de diálogo para seleccionar imágenes locales.  
 2. **Usar imágenes desde Google Drive**  
    - Se monta el Drive y se indica la ruta completa del archivo.  
 3. **Usar una URL pública**  
    - Se introduce la dirección web de la imagen.  
-
-Ejemplo de flujo en Colab:
-- Ejecuta la celda del menú.  
-- Escribe `1`, `2` o `3` según la opción deseada.  
-- La imagen se mostrará en pantalla y será evaluada automáticamente por el modelo.  
 
 ## 🔑 Notas importantes
 - Necesitas tu **API Key de Roboflow** para ejecutar el notebook.  
