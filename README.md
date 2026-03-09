@@ -109,7 +109,7 @@ Dentro del notebook 2 (inferencia) se incluye una sección llamada **“Evaluar 
 
 ## 🔗 Pesos del modelo
 - [Descargar best.pt (GitHub Release)](https://github.com/usuario/repositorio/releases)  
-  *(o enlace externo si lo subes a Drive/OneDrive)*
+  *(Ya no pude incluirlo por falta de GPU)*
 
 ## Documentos del proyecto
 - [Planteamiento del problema](M4T3_TAREA_DORA_VACA/docs/01_planteamiento_del_problema AECO.md at main · DoraVaca/M4T3_TAREA_DORA_VACA)
