@@ -55,18 +55,13 @@ Este proyecto está dividido en dos notebooks que deben ejecutarse en orden, NO 
 > **Nota:** El Notebook 2 no requiere haber corrido el Notebook ENTRENAMIENTO localmente. El modelo ya está desplegado en Roboflow y se carga automáticamente con tu API key.
 
 ## 📸 Evaluar imágenes propias
-Dentro del notebook 2 (inferencia) se incluye una sección llamada **“Evaluar imágenes propias”** con un menú interactivo. El usuario puede elegir entre tres opciones:
+Dentro del notebook 2 (inferencia) se incluye una sección llamada **“Evaluar imágenes propias”**. El usuario puede elegir entre tres opciones:
 1. **Subir archivo desde su computadora**  
    - Se abre un cuadro de diálogo para seleccionar imágenes locales.  
 2. **Usar imágenes desde Google Drive**  
    - Se monta el Drive y se indica la ruta completa del archivo.  
 3. **Usar una URL pública**  
    - Se introduce la dirección web de la imagen.  
-
-Ejemplo de flujo en Colab:
-- Ejecuta la celda del menú.  
-- Escribe `1`, `2` o `3` según la opción deseada.  
-- La imagen se mostrará en pantalla y será evaluada automáticamente por el modelo.  
 
 ## 🔑 Notas importantes
 - Necesitas tu **API Key de Roboflow** para ejecutar el notebook.  
@@ -75,7 +70,7 @@ Ejemplo de flujo en Colab:
   
 ## ✅ Resultados esperados
 - Descarga automática del dataset desde Roboflow.  
-- Entrenamiento del modelo (ejemplo: YOLOv8).  
+- Entrenamiento del modelo (ejemplo: YOLO26).  
 - Métricas de desempeño (precisión, recall, mAP).  
 - Ejemplos de predicciones sobre imágenes de prueba.
 
@@ -97,7 +92,7 @@ Ejemplo de flujo en Colab:
 
 ## ✅ Checklist de reproducibilidad
 - Dataset: Roboflow Project `M4T3_TAREA_DORA_VACA`, versión v3 (140 imágenes, split 72/16/12)
-- Modelo: yolo8n
+- Modelo: yolo26
 - Parámetros: epochs=30, batch=16, imgsz=640
 - Métricas: mAP@50=41.7%, Precision=65.2%, Recall=39.4%
 - Versión ultralytics: 8.0.196
@@ -110,6 +105,12 @@ Ejemplo de flujo en Colab:
 ## 🔗 Pesos del modelo
 - [Descargar best.pt (GitHub Release)](https://github.com/usuario/repositorio/releases)  
   *(o enlace externo si lo subes a Drive/OneDrive)*
+
+## Documentos del proyecto
+- [Planteamiento del problema](docs/01_planteamiento_del_problema.md)
+- [Definicion de clases](docs/02_definiciones_de_clases.md)
+- [Analisis de errores](docs/03_analisis_de_errores.md)
+- [Governance checklist](docs/04_governance_checklist.md)
 
 ## 📑 Paquete PDF
 - [Diapositivas](docs/slides.pdf)  
