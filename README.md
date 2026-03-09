@@ -78,8 +78,8 @@ Dentro del notebook 2 (inferencia) se incluye una sección llamada **“Evaluar 
 - Precision: 65.2%  
 - Recall: 39.4%  
 - mAP: 41.7%
-- [Matrix de Confusion](M4T3_TAREA_DORA_VACA/results/evidence/01_anotaciones at main · DoraVaca/M4T3_TAREA_DORA_VACA)
-- [Curvas](M4T3_TAREA_DORA_VACA/results/evidence/01_anotaciones at main · DoraVaca/M4T3_TAREA_DORA_VACA)      
+- [Matrix de Confusion](M4T3_TAREA_DORA_VACA/results/graficos_entrenamiento/Confusion_matrix.png at main · DoraVaca/M4T3_TAREA_DORA_VACA)
+- [Curvas](M4T3_TAREA_DORA_VACA/results/graficos_entrenamiento/Curvas.png at main)     
 - Conclusiones:  
   - El modelo detecta bien las clases más comunes (persona, arnés, chaleco).
   - Tiene problemas con clases poco representadas (guantes, sin chaleco, careta de soldadura).
