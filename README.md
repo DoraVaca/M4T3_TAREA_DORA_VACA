@@ -125,4 +125,4 @@ Dentro del notebook 2 (inferencia) se incluye una sección llamada **“Evaluar 
 - [Resultados Imagenes Nuevas](https://github.com/DoraVaca/M4T3_TAREA_DORA_VACA/tree/main/results/evidence/03_predicciones_im%C3%A1genes_nuevas)
  
 ## 📑 Licencia
-- [License](https://github.com/DoraVaca/M4T3_TAREA_DORA_VACA/tree/main/results/evidence/01_anotaciones)
+- [License](https://github.com/DoraVaca/M4T3_TAREA_DORA_VACA/blob/main/LICENSE.md)
