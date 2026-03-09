@@ -12,6 +12,10 @@ Esta carpeta contiene las **capturas y ejemplos visuales** que respaldan el dese
 - **Predicciones en imágenes nuevas (5 ejemplos)**  
   *Evidencias de inferencia sobre imágenes distintas al dataset, para mostrar capacidad de generalización.*
 
+- **Prueba de reproductividad**  
+  *Evidencia de que el notebook se reproduce por otros usuarios.*
+    
+
 ## 🎯 Uso
 Estas evidencias permiten:
 - **Verificar** la calidad de las anotaciones originales.  
