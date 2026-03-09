@@ -21,6 +21,7 @@ Detectar objetos/clases en imágenes de contexto AECO: equipo de protección per
 - Clase 9: safety_vest
 - Clase 10: welding_mask
 👉 Reglas: se etiqueta solo el objeto completo, no partes sueltas.
+- [Informe exploración con SAM](https://github.com/DoraVaca/M4T3_TAREA_DORA_VACA/blob/main/docs/exploracion_SAM.pdf)  
 
 ## 📊 Dataset
 - Fuente: [https://app.roboflow.com/dora-nkhz4/m4t3_tarea_dora_vaca/3]  
@@ -79,7 +80,8 @@ Dentro del notebook 2 (inferencia) se incluye una sección llamada **“Evaluar 
 - Recall: 39.4%  
 - mAP: 41.7%
 - [Matriz de Confusion](https://github.com/DoraVaca/M4T3_TAREA_DORA_VACA/blob/main/results/graficos_entrenamiento/Confusion_matrix.png)
-- [Curvas](https://github.com/DoraVaca/M4T3_TAREA_DORA_VACA/blob/main/results/graficos_entrenamiento/Curvas.png)   
+- [Curvas](https://github.com/DoraVaca/M4T3_TAREA_DORA_VACA/blob/main/results/graficos_entrenamiento/Curvas.png)
+- [Salidas de Inferencia](https://github.com/DoraVaca/M4T3_TAREA_DORA_VACA/blob/main/docs/salidas_inferencia.pdf)
 - Conclusiones:  
   - El modelo detecta bien las clases más comunes (persona, arnés, chaleco).
   - Tiene problemas con clases poco representadas (guantes, sin chaleco, careta de soldadura).
